@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">2dp</dimen>
+    <dimen name="activity_vertical_margin">2dp</dimen>
+    <dimen name="today_high_text_size">72sp</dimen>
+    <dimen name="today_low_text_size">36sp</dimen>
+    <dimen name="today_padding_left">70dp</dimen>
+    <dimen name="image_width">50dp</dimen>
+    <dimen name="forecast_padding">10dp</dimen>
+    <dimen name="low_padding_left">30dp</dimen>
+    <dimen name="today_padding_top">5dp</dimen>
+    <dimen name="forecast_padding_top">30dp</dimen>
+    <dimen name="forecast_low_padding">5dp</dimen>
+    <dimen name="forecast_text_top_padding">15dp</dimen>
+    <dimen name="forecast_low_left_padding">30dp</dimen>
+    <dimen name="forecast_low_text_size">40sp</dimen>
+    <dimen name="forecast_high_text_size">76sp</dimen>
+    <dimen name="forecast_date_text_size">20sp</dimen>
+    <dimen name="forecast_day_text_size">24sp</dimen>
+    <dimen name="forecast_detail_padding">16dp</dimen>
+    <dimen name="forecast_inner_margin">16dp</dimen>
+
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ActionBar.Solid.3MG</item>
+        <item name="colorPrimaryDark">@color/mmmg_dark_blue</item>
+        <item name="colorAccent">@color/mmmg_light_grey</item>
+    </style>
+    <style name="ForecastListStyle"/>
+    
+    <style name="ActionBar.Solid.3MG" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/mmmg_blue</item>
+    </style>
+    
+    <style name="ForecastTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/ActionBar.Solid.3MG.NoTitle</item>
+    </style>
+
+    <style name="ActionBar.Solid.3MG.NoTitle" parent="ActionBar.Solid.3MG">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@drawable/ic_logo</item>
+    </style>
+
+</resources>

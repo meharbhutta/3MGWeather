@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:title="@string/pref_enable_currentLocation_label"
+        android:key="@string/pref_enable_currentLocation_key"
+        android:summaryOn="@string/pref_enable_currentLocation_true"
+        android:summaryOff="@string/pref_enable_currentLocation_false"
+        android:defaultValue="@string/pref_enable_currentLocation_default"/>
+</PreferenceScreen>

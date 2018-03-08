@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/today_padding_top"
+    android:paddingLeft="@dimen/today_padding_left"
+    android:paddingStart="@dimen/today_padding_left"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:background="@color/mmmg_blue"
+    android:gravity="center_vertical"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_item_date_textview"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/mmmg_white"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_item_high_textview"
+            android:textSize="@dimen/today_high_text_size"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/mmmg_white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_item_low_textview"
+            android:textSize="@dimen/today_low_text_size"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/mmmg_white"
+            android:paddingLeft="@dimen/low_padding_left"
+            android:paddingStart="@dimen/low_padding_left"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_item_imageview"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_item_forecast_textview"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/mmmg_white"
+            android:paddingTop="@dimen/forecast_padding_top"/>
+    </LinearLayout>
+
+</LinearLayout>

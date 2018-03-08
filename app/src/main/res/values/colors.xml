@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mmmg_dark_blue">#37b0f2</color>
+    <color name="mmmg_blue">#d840b2f0</color>
+    <color name="mmmg_light_blue">#ed64c2f4</color>
+    <color name="grey">#cccccccc</color>
+    <color name="transparent">#00000000</color>
+    <color name="mmmg_white">#FFFFFFFF</color>
+    <color name="mmmg_black">#fa000000</color>
+    <color name="mmmg_light_grey">#faa2a1a1</color>
+    <color name="mmmg_grey">#5d5c5c</color>
+    <color name="mmmg_about_blue">#ecc4e8fb</color>
+</resources>

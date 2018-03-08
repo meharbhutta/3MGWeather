@@ -1,0 +1,106 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.muhammadmehar.mmmgweather.DetailFragment"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/forecast_detail_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/forecast_day_text_size"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/mmmg_black"
+            android:id="@+id/day_textview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/forecast_date_text_size"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/mmmg_light_grey"
+            android:id="@+id/date_textview"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/forecast_inner_margin"
+            android:layout_marginBottom="@dimen/forecast_inner_margin">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/forecast_high_text_size"
+                    android:fontFamily="sans-serif"
+                    android:id="@+id/high_textview"
+                    android:textColor="@color/mmmg_black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/forecast_low_text_size"
+                    android:fontFamily="sans-serif"
+                    android:id="@+id/low_textview"
+                    android:textColor="@color/mmmg_grey"
+                    android:paddingLeft="@dimen/forecast_low_left_padding"
+                    android:paddingStart="@dimen/forecast_low_left_padding"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/icon_imageView"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textColor="@color/mmmg_light_grey"
+                    android:id="@+id/forecast_textview"
+                    android:paddingTop="@dimen/forecast_text_top_padding"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/humidity_textview"
+            android:textColor="@color/mmmg_black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/wind_textview"
+            android:textColor="@color/mmmg_black"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
